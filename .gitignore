@@ -1,7 +1,56 @@
-*.env
-*/node_modules
+# dependencies
+/node_modules
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/frontend/build
+/frontend/dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
 *.log
-*.DS_Store
+
+# IDE and editor files
+.idea/
+.vscode/
 *.swp
 *.swo
-*.sublime-workspace
+*.swn
+*.bak
+
+# Cache directories
+.cache/
+.npm/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
